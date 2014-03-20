@@ -5,12 +5,12 @@ test, a second version of test
       in (Rule { lhs = lhs, rhs = rhs',
                 lhs_aut = lhsauts,
                 selfapps = [] (* GG: filterorbits lhsba [] *),
-                order = [] (* GG: gen_order lhs lhsauts
+                order = [] (* GG: gen_ order lhs lhsauts
                                   V.NSet.empty V.NSet.empty *) },
           (vrn,ern))
 
 
 - [ ] move socket stuff into isaplib [GG]
-    -> still need to be tested and array stuff checked.
+    -> still need to be tested and arra y stuff checked.
 
 ====
