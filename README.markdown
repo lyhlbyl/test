@@ -1,5 +1,5 @@
 test, a second version of test 
--[] order function for data. Rule.mk not terminated - the following hack in 
+- [x] order function for data. Rule.mk not terminated - the following hack in 
        quantomatic/core/rewriting/rule.ML for Rule.mk required:
 
       in (Rule { lhs = lhs, rhs = rhs',
@@ -12,5 +12,7 @@ test, a second version of test
 
 - [ ] move socket stuff into isaplib [GG]
     -> still need to be tested and arra y stuff checked.
+    
 some chiange to fix 
 ====
+
