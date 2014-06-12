@@ -481,11 +481,19 @@ li{
 }
 
 @font-face {
-    font-family: 'tinkertoy';
-    src: url('/font/tinkertoy.ttf');
+    font-family: 'tinkertoyregular';
+    src: url('fonts/tinkertoy-webfont.eot');
+    src: url('fonts/tinkertoy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/tinkertoy-webfont.woff') format('woff'),
+         url('fonts/tinkertoy-webfont.ttf') format('truetype'),
+         url('fonts/tinkertoy-webfont.svg#tinkertoyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
 header h1, header h2:before {
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: 'tinkertoyregular';
 }
 
 
